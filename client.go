@@ -70,7 +70,7 @@ func NewClient() *Client {
 		Trim:      true,
 	}
 	if os.Getenv("TESSDATA_PREFIX") == "" {
-		os.Setenv("TESSDATA_PREFIX", `./gosseract`)
+		os.Setenv("TESSDATA_PREFIX", `./tessdata`)
 	}
 	return client
 }
