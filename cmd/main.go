@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"git.nosugar.io/gosseract"
+	"gosseract-win-demo"
 	"log"
 )
 
