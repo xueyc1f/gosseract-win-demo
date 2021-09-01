@@ -1,3 +1,3 @@
-module git.nosugar.io/gosseract
+module gosseract-win-demo
 
 go 1.13
