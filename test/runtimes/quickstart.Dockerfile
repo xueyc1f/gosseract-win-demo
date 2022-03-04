@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1-bullseye
 
 # Update registry
 RUN apt-get update -qq
