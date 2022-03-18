@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:11.2
 
 RUN apt-get update -qq
 RUN apt-get install -y \
