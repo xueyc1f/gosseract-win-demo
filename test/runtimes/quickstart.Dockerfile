@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.22.4
 
 # Update registry
 RUN apt-get update -qq
