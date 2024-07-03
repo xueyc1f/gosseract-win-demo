@@ -4,7 +4,7 @@
 # You can just hit `docker run -it --rm otiai10/gosseract`
 # to try and check it out!
 #####
-FROM golang:latest
+FROM golang:1.22.4
 LABEL maintainer="Hiromu Ochiai <otiai10@gmail.com>"
 
 RUN apt-get update -qq
